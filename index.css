@@ -8,6 +8,12 @@ a, :active, :visited, :link {
 .clear {
     clear: both;
 }
+.head img {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
 #konten {
     width: 900px;
     margin: auto;
@@ -23,7 +29,9 @@ a, :active, :visited, :link {
 }
 .box-30 img:hover {
     opacity: 0.5;
-    transition: 1s;
+    bottom: 10px;
+    position: relative;
+    transition: 0.5s;
 }
 .box-30 h3, p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
