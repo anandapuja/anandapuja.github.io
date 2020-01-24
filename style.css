@@ -6,22 +6,56 @@ RESET CSS
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 /*
 HEADER, NAV, LOGO CSS
 */
 #header {
-      /* The image used */
-  background-image: url("img/header.jpg");
-
-  /* Set a specific height */
-  min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("img/header.jpg") ;
+    min-height: 500px; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale();
+    border-bottom: 5px solid #ddd;
 }
-.max-width {
-    max-width: 100%;
+#navigasi {
+    position: fixed;
+    top: 0;
+    background: rgb(5, 84, 129);
+    width: 100%;
+    height: 80px;
+    color: white;
+    z-index: 999999;
+    padding: 30px;
+}
+.inline li {
+    display: inline;
+    padding: 0 15px;
+}
+.opacity {
+    opacity: 0.5;
+}
+.round-100 {
+    border-radius: 100%;
+    border: 5px solid #ddd;
+}
+.text-center {
+    text-align: center;
+}
+.img-center {
+    width: 200px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    bottom: 100px;
+}
+/* MAIN CSS */
+#main {
+    max-width: 980px;
+    height: auto;
+    margin: auto;
 }
