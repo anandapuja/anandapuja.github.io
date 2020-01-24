@@ -23,6 +23,24 @@ p {
     padding: 10px 0;
     line-height: 1.6;
 }
+.button {
+    width: 200px;
+    height: 70px;
+    background: inherit;
+    color: rgb(5, 84, 129);
+    font-size: 22px;
+    border-radius: 10px;
+    transition: 0.8s;
+    border:2px solid rgb(5, 84, 129);
+}
+.button:hover {
+    background: rgb(5, 84, 129);
+    color: white;
+    width: 300px;
+}
+iframe {
+    border-radius: 20px;
+}
 h1 {
     font-size: 55px;
 }
@@ -65,10 +83,13 @@ section {
 .bottom-30 {
     padding-bottom: 30px;
 }
+.top-30 {
+    margin-top: 30px;
+}
 /*
 HEADER, NAV, LOGO CSS
 */
-.header {
+.parralax-background {
     background-image: url("img/header.jpg") ;
     height: 600px; 
     background-position: center;
@@ -98,20 +119,31 @@ HEADER, NAV, LOGO CSS
     z-index: 999999;
     padding: 30px;
 }
-.inline li {
+.navigasi li {
     display: inline;
     padding: 0 15px;
+    transition: 0.3s;
+    transition-timing-function: linear;
+}
+.navigasi li:hover {
+    color:rgb(5, 84, 129);
+    background: white;
 }
 .opacity {
     opacity: 0.5;
 }
 .round-100 {
     border-radius: 100%;
-    border: 5px solid #ddd;
+    border: 10px solid #ddd;
     margin-top: 100px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: 0.2s;
+    transition-timing-function: linear;
+}
+.round-100:hover {
+    border-radius: 20px;
 }
 .text-center {
     text-align: center;
@@ -143,6 +175,13 @@ HEADER, NAV, LOGO CSS
     padding: 20px 0 40px 0;
     border-radius: 15px;
     margin-bottom: 20px;
+    transition-timing-function: ease-in-out;
+    transition: 0.2s;
+}
+.darkmode:hover {
+    box-shadow: 0px 5px 8px #888888;
+    position: relative;
+    bottom: 5px;
 }
 .grid-3 {
     display: grid;
@@ -170,6 +209,13 @@ HEADER, NAV, LOGO CSS
     max-width: 100%;
     margin-bottom: 20px;
     border-radius: 10px;
+}
+.grid-a {
+    color: rgb(5, 84, 129);
+    transition: 0.2s;
+}
+.grid-a:hover {
+    color: rgb(196, 150, 0);
 }
 /* FOOTER CSS */
 #footer {
