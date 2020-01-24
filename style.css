@@ -1,0 +1,27 @@
+/*
+RESET CSS
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+HEADER, NAV, LOGO CSS
+*/
+#header {
+      /* The image used */
+  background-image: url("img/header.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.max-width {
+    max-width: 100%;
+}
