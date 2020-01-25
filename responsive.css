@@ -19,10 +19,18 @@ RESET CSS
     top: 0;
     background: rgb(5, 84, 129);
     width: 100%;
-    height: 80px;
+    height: 50px;
     color: white;
     z-index: 999999;
-    padding: 30px;
+    }
+    .navigasi-mobile-li {
+        float: left;
+        max-width: 16.666666666666667%;
+        background: red;
+    }
+    .navigasi-mobile li:hover {
+        color:rgb(5, 84, 129);
+        background: white;
     }
 }
 @media only screen and (min-width: 600px){
@@ -80,16 +88,6 @@ HEADER, NAV, LOGO CSS
         margin: auto;
         margin-bottom: 50px;
     }
-}
-.navigasi li {
-    display: inline;
-    padding: 0 15px;
-    transition: 0.3s;
-    transition-timing-function: linear;
-}
-.navigasi li:hover {
-    color:rgb(5, 84, 129);
-    background: white;
 }
 .opacity {
     opacity: 0.5;
@@ -154,16 +152,6 @@ HEADER, NAV, LOGO CSS
     top: 0;
     left: 0;
     z-index: 9999999;
-}
-.navigasi li {
-    display: inline;
-    padding: 0 15px;
-    transition: 0.3s;
-    transition-timing-function: linear;
-}
-.navigasi li:hover {
-    color:rgb(5, 84, 129);
-    background: white;
 }
 /* MAIN CSS */
 #main {
