@@ -76,7 +76,7 @@ RESET CSS
     .button {
         width: 80%;
         padding: 10px 10px 10px 10px;
-        font-size: 1em;
+        font-size: 13px;
     }
     .button:hover {
         background: #055481;
