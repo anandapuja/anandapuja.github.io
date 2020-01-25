@@ -16,8 +16,8 @@ RESET CSS
     }
     #navigasi-mobile {
     position: fixed;
+    background: #055481;
     top: 0;
-    background: rgb(5, 84, 129);
     width: 100%;
     height: 50px;
     color: white;
@@ -41,6 +41,37 @@ RESET CSS
     .img-20px {
         max-height: 20px;
     }
+    #navigasi-left {
+        display: none;
+    }
+    .logo-round-50 {
+        background: none;
+        position: absolute;
+        border-radius: 100%;
+        top: 55px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 999998;
+        padding: 3px;
+        border: 1px solid #055481;
+    }
+    .grid-column-2 {
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 10px;
+        padding: 30px;
+        transition: 0.1s;
+        transition-timing-function: linear;
+    }
+    h4.grid-a, p {
+        text-align: center;
+    }
+    h4.grid-a {
+        line-height: 1.2;
+    }
+    .grid-padding {
+        margin-bottom: 20px;
+    }
 }
 @media only screen and (min-width: 600px){
     #navigasi-mobile {
@@ -56,7 +87,6 @@ RESET CSS
         text-align: center;
         padding: 20px;
         font-family: monospace;
-        background-color: red;
     }
     iframe {
         max-width: 100%;
