@@ -23,80 +23,12 @@ RESET CSS
     color: white;
     z-index: 999999;
     padding: 30px;
-    display: grid;
     }
 }
 @media only screen and (min-width: 600px){
     #navigasi-mobile {
         display: none;
     }
-}
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: #ddd;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: monospace;
-    line-height: 1.5;
-}
-a {
-    color: inherit;
-    text-decoration: none;
-}
-p {
-    padding: 10px 0;
-    line-height: 1.6;
-}
-li {
-    list-style-type: none;
-}
-h1 {
-    font-size: 55px;
-}
-h2 {
-    font-size: 40px;
-}
-h3 {
-    font-size: 35px;
-}
-h4 {
-    font-size: 30px;
-}
-h5 {
-    font-size: 25px;
-}
-h6 {
-    font-size: 20px;
-}
-.position-relative {
-    position: relative;
-}
-section {
-    padding: 20px;
-}
-.center {
-    margin: 0 auto;
-}
-.light-text {
-    color: white;
-}
-.img-size-50 {
-    width: 50px;
-}
-.uppercase {
-    text-transform: uppercase;
-}
-.bottom-30 {
-    padding-bottom: 30px;
-}
-.top-30 {
-    margin-top: 30px;
-}
-.margin-bottom-30 {
-    margin-bottom: 30px;
-}
-.main-padding {
-    padding: 30px 0;
 }
 /*
 HEADER, NAV, LOGO CSS
